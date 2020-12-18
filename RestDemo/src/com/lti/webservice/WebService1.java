@@ -12,7 +12,7 @@ public class WebService1 {
 	@Produces(MediaType.TEXT_XML)
 	@Path("/p1")
 	public String showmessage1() {
-		return "<?xml version=\"1.0\"?>"+ "<hello>Hello Jersey"+"</hello>";	
+		return "<?xml version=\"1.0\"?>"+ "<hello>Hello Jersey some changes now"+"</hello>";	
 	}
 	@GET
 	@Path("/p2")
