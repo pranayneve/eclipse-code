@@ -12,7 +12,11 @@ public class WebService1 {
 	@Produces(MediaType.TEXT_XML)
 	@Path("/p1")
 	public String showmessage1() {
-		return "<?xml version=\"1.0\"?>"+ "<hello>Hello Jersey some changes now thode changes aur daal diye jaye1conflict push kro"+"</hello>";	
+//<<<<<<< HEAD
+		//return "<?xml version=\"1.0\"?>"+ "<hello>Hello Jersey some changes now thode changes aur daal diye jaye1conflict push kro"+"</hello>";	
+//=======
+		return "<?xml version=\"1.0\"?>"+ "<hello>Hello Jersey some changes now thode changes aur daal diye jaye1conflictfir se push"+"</hello>";	
+//>>>>>>> branch 'master' of https://github.com/pranayneve/eclipse-code.git
 	}
 	@GET
 	@Path("/p2")
